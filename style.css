@@ -9,4 +9,5 @@ git commit
 git config --global user.email "gmorenogabriel@gmail.com"
 git config --global user.name "gmoreno@gmail.com"
 git commit           ---<Agregar linea de comentario inicial>---
-git restore <file>   ---<Volvemos al arhivo original<---
+git restore <file>   ---<Volvemos al arhivo original>---
+git diff    <file>
