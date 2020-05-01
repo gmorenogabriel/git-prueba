@@ -12,3 +12,8 @@ git commit           ---<Agregar linea de comentario inicial>---
 git commit -m "Cuarta modificacion agregue .gitignore"
 git restore <file>   ---<Volvemos al arhivo original>---
 git diff    <file>
+
+
+git branch login      ---<Creo un nuevo proyecto llamado login>---
+git checkout login    ---<me movi a login>---
+
