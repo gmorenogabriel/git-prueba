@@ -17,3 +17,20 @@ git diff    <file>
 git branch login      ---<Creo un nuevo proyecto llamado login>---
 git checkout login    ---<me movi a login>---
 
+
+/* ir a Github.com, identificarse                         */
+/* en la barra agregar "new" para crear el nuevo proyecto */
+/* https://github.com/new                                 */
+/* entonces crea un proyecto con el nombre que asignes    */
+/* git-prueba                                             */
+/* subimos el proyecto con el comando                     */
+git remote add origin https://github.com/gmorenogabriel/git-prueba.git
+git push -u origin master
+/* Abre un login de GitHub y pide contraseña              */
+/* luego sube el código al repositorio                    */
+/* Agregar en la página el README de comentario           */
+
+
+/* Bajamos el Proyecto                                    */
+git clone https://github.com/gmorenogabriel/git-prueba.git
+
