@@ -1,0 +1,10 @@
+/* ------------------ */
+/* style.css nueva    */
+/* 1 de Mayo          */
+/* ------------------ */
+git init
+git add <file>
+git status
+git commit
+git config --global user.email "gmorenogabriel@gmail.com"
+git config --global user.name "gmoreno@gmail.com"

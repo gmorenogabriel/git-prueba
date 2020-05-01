@@ -1,0 +1,22 @@
+/* ------------------ */
+/* Instalacion nueva  */
+/* 1 de Mayo          */
+/* ------------------ */
+
+-5.3.2-3-linux-debian-9-x86_64.ova
+D:\VMWare\debian-9\bitnami-wordpress
+login   :bitnami
+password:morega2218
+sudo ifconfig -a   (revise el nombre de la Tarjeta Eth.)
+sudo vi /etc/network/interfaces.d/setup
+	cambie eth0  por  ens160
+sudo /opt/bitnami/apps/wordpress/bnconfig --machine_hostname 192.168.1.21
+Enable Desktop Access
+To allow desktop access for the bitnami user, follow these steps:
+
+Debian
+Install the gnome-core package:
+
+sudo apt-get update
+sudo apt-get install gnome-core
+Reboot the machine.

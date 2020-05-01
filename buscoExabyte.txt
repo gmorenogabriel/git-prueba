@@ -1,0 +1,23 @@
+/* ------------------ */
+/* buscoExabyte nueva */
+/* 1 de Mayo          */
+/* ------------------ */
+/* Buscar y Bajar peliculas en Exabyte */
+
+/* Acceso al servidor de Exabyte, solo por unica vez */
+wget http://exabytetv.net/lista/gabmor2/xckqabq/peliculas.m3u
+
+/* con vi busco el nombre, luego bajo la pelicula y la caratula */
+wget http://s1.iptvprivado.net:8000/movie/gabmor2/xckqabq/9778.mp4
+wget http://158.69.228.135:8000/images/9778.jpg
+
+/* mpv 9778.mp4 */
+/* instale:
+            
+            Cliente Torrent
+            sudo apt-get install qbittorrent
+
+            Visor de Videos
+            desde la barra de Tareas de Ubuntu Software installe Gnome mpv  (GTK +FrontEnd)
+
+*/ 
